@@ -160,8 +160,7 @@ st.write("""
 6. Zavala, M. (2021). Monitoreo en tiempo real de fraudes en sistemas previsionales. Sistemas de Información Financiera, 35(4), 210-225.
 """)
 
-
-# Agregar un botón para descargar el PDF
+# Sidebar - Botón para descargar el proyecto en PDF
 st.sidebar.header("Descargar Proyecto")
 with open("proyecto.pdf", "rb") as pdf_file:
     btn = st.sidebar.download_button(
@@ -169,5 +168,6 @@ with open("proyecto.pdf", "rb") as pdf_file:
         data=pdf_file,
         file_name="proyecto.pdf",
         mime="application/pdf"
+    )
 
 
