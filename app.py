@@ -162,11 +162,11 @@ st.write("""
 
 # Sidebar - Botón para descargar el proyecto en PDF
 st.sidebar.header("Descargar Proyecto")
-with open("proyecto.pdf", "rb") as pdf_file:
+with open("fraudes_tex.pdf", "rb") as pdf_file:
     btn = st.sidebar.download_button(
         label="Descargar Proyecto en PDF",
         data=pdf_file,
-        file_name="proyecto.pdf",
+        file_name="fraudes_tex.pdf",
         mime="application/pdf"
     )
 
