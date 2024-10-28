@@ -36,8 +36,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Título del Proyecto
 st.title("Prevención de Fraude en Retiros por Desempleo utilizando Inteligencia Artificial en el IMSS y PENSIONISSSTE")
 
-# Sidebar - Nombre
-st.sidebar.header("Javier Horacio Pérez Ricárdez")
+
 
 # Sidebar - ¿Por qué utilizar IA en este tipo de proyectos?
 st.sidebar.subheader("¿Por qué utilizar IA en este tipo de proyectos?")
@@ -50,6 +49,10 @@ st.sidebar.subheader("¿Por qué utilizar IA en PENSIONISSSTE?")
 st.sidebar.write("""
 En instituciones como **PENSIONISSSTE**, que gestionan los ahorros de millones de trabajadores, la IA es crucial para proteger estos fondos y garantizar que los retiros por desempleo sean legítimos. Al implementar IA, **PENSIONISSSTE** puede analizar los patrones salariales y detectar posibles fraudes antes de que afecten la estabilidad del sistema.
 """)
+
+# Sidebar - Nombre
+st.sidebar.header("Javier Horacio Pérez Ricárdez")
+
 
 # Introducción
 st.header("Introducción")
