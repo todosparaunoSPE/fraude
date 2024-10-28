@@ -33,14 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-
-
-
-
-
-
-
-
 # Título del Proyecto
 st.title("Prevención de Fraude en Retiros por Desempleo utilizando Inteligencia Artificial en el IMSS y PENSIONISSSTE")
 
@@ -171,17 +163,4 @@ st.write("""
 
 
 
-# Sidebar - Nombre
-st.sidebar.header("Javier Horacio Pérez Ricárdez")
 
-# Sidebar - ¿Por qué utilizar IA en este tipo de proyectos?
-st.sidebar.subheader("1. ¿Por qué utilizar IA en este tipo de proyectos?")
-st.sidebar.write(""" 
-La inteligencia artificial (IA) ofrece herramientas avanzadas para detectar patrones inusuales y comportamientos atípicos que podrían indicar fraude. Su capacidad para procesar grandes volúmenes de datos y analizar tendencias en tiempo real permite identificar riesgos antes de que se materialicen, lo que mejora la eficiencia en la prevención de fraudes.
-""")
-
-# Sidebar - ¿Por qué utilizar IA en PENSIONISSSTE?
-st.sidebar.subheader("2. ¿Por qué utilizar IA en PENSIONISSSTE?")
-st.sidebar.write(""" 
-En instituciones como **PENSIONISSSTE**, que gestionan los ahorros de millones de trabajadores, la IA es crucial para proteger estos fondos y garantizar que los retiros por desempleo sean legítimos. Al implementar IA, **PENSIONISSSTE** puede analizar los patrones salariales y detectar posibles fraudes antes de que afecten la estabilidad del sistema.
-""")
