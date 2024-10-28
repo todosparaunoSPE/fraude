@@ -161,6 +161,13 @@ st.write("""
 """)
 
 
-
+# Agregar un botón para descargar el PDF
+st.sidebar.header("Descargar Proyecto")
+with open("proyecto.pdf", "rb") as pdf_file:
+    btn = st.sidebar.download_button(
+        label="Descargar Proyecto en PDF",
+        data=pdf_file,
+        file_name="proyecto.pdf",
+        mime="application/pdf"
 
 
